@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gotyou.MainActivity" >
+
+      <item
+        android:id="@+id/option"
+        android:title="Option"
+        >
+        <menu android:id="@+id/sousmenu">
+          <item android:id="@+id/stats" android:title="Statistique"/>
+          <item android:id="@+id/contact" android:title="Contact"/>
+        </menu>
+    </item>
+    <item 
+        android:id="@+id/quitter"
+        android:title="Quitter"/>
+
+</menu>
+
